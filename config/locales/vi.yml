@@ -1,8 +1,24 @@
 vi:
+  english: English
+  vietnamese: Tiếng Việt
+  rortsa: Ứng dụng mẫu của Hướng dẫn Ruby trên Rails
   layouts:
     application:
       title: Ứng dụng mẫu
       subtitle: Ứng dụng mẫu Ruby trên Rails
+    header: 
+      sa: ứng dụng mẫu
+      home: Trang chủ
+      help: Trợ giúp
+      login: Đăng nhập
+    footer:
+      the: Sách
+      rort: Hướng dẫn Ruby trên Rails
+      by: của
+      mh: Michael Hartl
+      about: Giới thiệu
+      contact: Liên hệ
+      news: Tin tức
   static_pages:
     about:
       rort: Hướng dẫn Ruby trên Rails
@@ -33,9 +49,13 @@ vi:
       rort: Hướng dẫn Ruby trên Rails
       ror: Ruby trên Rails
       title: Trang chủ
-      header: Trang chủ
+      header: Chào mừng tới Ứng dụng mẫu
       home: Đây là trang chủ của
       sample: ứng dụng mẫu
-  english: English
-  vietnamese: Tiếng Việt
-  rortsa: Ứng dụng mẫu của Hướng dẫn Ruby trên Rails
+      signup: Đăng ký ngay!
+      rails_logo: Rails logo
+  users:
+    new:
+      title: Đăng ký
+      header: Đăng ký
+      intro: Đây là trang đăng ký cho người dùng mới.
