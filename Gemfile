@@ -28,6 +28,10 @@ group :test do
   gem "capybara", ">= 2.15"
   gem "selenium-webdriver"
   gem "webdrivers"
+  gem "minitest", "5.11.3"
+  gem "minitest-reporters", "1.1.14"
+  gem "guard", "2.13.0"
+  gem "guard-minitest", "2.4.4"
 end
 
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
