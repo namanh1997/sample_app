@@ -17,15 +17,14 @@ vi:
       teach: dạy lập trình web bằng
       sample: Đây là ứng dụng mẫu
     contact:
-      rort: Hướng dẫn Ruby trên Rails
-      ror: Ruby trên Rails
       title: Liên lạc
       header: Liên lạc
       contact: Liên hệ tại
       page: trang liên lạc
     help:
-      rthp: mục hướng dẫn Ruby trên Rails
       rort: Hướng dẫn Ruby trên Rails
+      ror: Ruby trên Rails
+      rthp: mục hướng dẫn Ruby trên Rails
       title: Trợ giúp
       header: Trợ giúp
       get_help: Nhận trợ giúp Ruby trên Rails tại
@@ -37,3 +36,6 @@ vi:
       header: Trang chủ
       home: Đây là trang chủ của
       sample: ứng dụng mẫu
+  english: English
+  vietnamese: Tiếng Việt
+  rortsa: Ứng dụng mẫu của Hướng dẫn Ruby trên Rails
