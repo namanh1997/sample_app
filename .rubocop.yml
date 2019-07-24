@@ -19,6 +19,7 @@ AllCops:
     - 'spec/**/*'
     - 'script/rails'
     - 'config/**/*'
+    - 'node_modules/node-sass/src/libsass/contrib/libsass.spec'
 
 # Indent private/protected/public as deep as method definitions
 Layout/AccessModifierIndentation:
@@ -256,7 +257,7 @@ Style/HashSyntax:
     - hash_rockets
 
 # Checks the indentation of the first key in a hash literal.
-Layout/IndentFirstHashElement:
+Layout/IndentHash:
   # The value `special_inside_parentheses` means that hash literals with braces
   # that have their opening brace on the same line as a surrounding opening
   # round parenthesis, shall have their first key indented relative to the
