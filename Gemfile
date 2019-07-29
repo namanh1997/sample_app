@@ -5,9 +5,12 @@ git_source(:github){|repo| "https://github.com/#{repo}.git"}
 
 ruby "2.5.5"
 
+gem "bcrypt", "3.1.12"
 gem "bootsnap", ">= 1.4.2", require: false
-gem "bootstrap-sass", "3.3.7"
+gem "bootstrap-sass", "3.4.1"
+gem "config"
 gem "jbuilder", "~> 2.5"
+gem "parser", "~> 2.6", ">= 2.6.3.0"
 gem "puma", "~> 3.11"
 gem "rails", "~> 6.0.0.rc1"
 gem "rubocop", "~> 0.54.0", require: false
