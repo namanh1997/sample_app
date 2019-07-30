@@ -1,9 +1,8 @@
 vi:
-  english: English
-  vietnamese: Tiếng Việt
   rortsa: Ứng dụng mẫu của Hướng dẫn Ruby trên Rails
   welcome: Chào mừng tới Ứng dụng mẫu!
   no_user: Không tìm thấy tài khoản!
+  login_invalid: Tài khoản hoặc mật khẩu không chính x
   layouts:
     application:
       title: Ứng dụng mẫu
@@ -13,6 +12,11 @@ vi:
       home: Trang chủ
       help: Trợ giúp
       login: Đăng nhập
+      users: Người dùng
+      account: Tài khoản
+      profile: Hồ sơ
+      settings: Cài đặt
+      logout: Đăng xuất
     footer:
       the: Sách
       rort: Hướng dẫn Ruby trên Rails
@@ -21,6 +25,8 @@ vi:
       about: Giới thiệu
       contact: Liên hệ
       news: Tin tức
+      english: English
+      vietnamese: Tiếng Việt
   static_pages:
     about:
       rort: Hướng dẫn Ruby trên Rails
@@ -70,3 +76,10 @@ vi:
       password: Mật khẩu
       confirmation: Nhập lại mật khẩu
       create_acc: Tạo tài khoản
+  sessions:
+    new:
+      email: Email
+      password: Mật khẩu
+      login: Đăng nhập
+      signup: Hãy đăng ký!
+      new_user: Bạn là người mới?
