@@ -10,6 +10,7 @@ gem "bootsnap", ">= 1.4.2", require: false
 gem "bootstrap-sass", "3.4.1"
 gem "config"
 gem "jbuilder", "~> 2.5"
+gem "jquery-rails"
 gem "parser", "~> 2.6", ">= 2.6.3.0"
 gem "puma", "~> 3.11"
 gem "rails", "~> 6.0.0.rc1"

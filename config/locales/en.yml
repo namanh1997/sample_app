@@ -4,6 +4,7 @@ en:
   rortsa: Ruby on Rails Tutorial Sample App
   welcome: Welcome to the Sample App!
   no_user: No user found!
+  login_invalid: Invalid email/password combination
   layouts:
     application:
       title: SampleApp
@@ -13,6 +14,11 @@ en:
       home: Home
       help: Help
       login: Log in
+      users: Users
+      account: Account
+      profile: Profile
+      settings: Settings
+      logout: Log out
     footer:
       the: The
       rort: Ruby on Rails Tutorial
@@ -70,3 +76,10 @@ en:
       password: Password
       confirmation: Confirmation
       create_acc: Create my account
+  sessions:
+    new:
+      email: Email
+      password: Password
+      login: Log in
+      signup: Sign up now!
+      new_user: New user?
