@@ -1,6 +1,4 @@
 vi:
-  english: English
-  vietnamese: Tiếng Việt
   rortsa: Ứng dụng mẫu của Hướng dẫn Ruby trên Rails
   welcome: Chào mừng tới Ứng dụng mẫu!
   no_user: Không tìm thấy tài khoản!
@@ -27,6 +25,8 @@ vi:
       about: Giới thiệu
       contact: Liên hệ
       news: Tin tức
+      english: English
+      vietnamese: Tiếng Việt
   static_pages:
     about:
       rort: Hướng dẫn Ruby trên Rails
