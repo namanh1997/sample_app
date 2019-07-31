@@ -1,10 +1,13 @@
 en:
-  english: English
-  vietnamese: Tiếng Việt
   rortsa: Ruby on Rails Tutorial Sample App
   welcome: Welcome to the Sample App!
   no_user: No user found!
   login_invalid: Invalid email/password combination
+  profile_updated: Profile updated
+  profile_update_failed: Profile update failed
+  user_deleted: User deleted
+  user_delete_failed: User delete failed
+  please_login: Please log in
   layouts:
     application:
       title: SampleApp
@@ -27,6 +30,8 @@ en:
       about: About
       contact: Contact
       news: News
+      english: English
+      vietnamese: Tiếng Việt
   static_pages:
     about:
       rort: Ruby on Rails Tutorial
@@ -70,12 +75,24 @@ en:
   users:
     new:
       title: Sign up
-      header: Sign up
+      header: Sign up     
+      button: Create my account
+    index:
+      title: All users
+      header: All users
+    user:
+      delete: delete
+      sure?: You sure?
+    edit: 
+      title: Edit user
+      button: Save changes
+      header: Update your profile
+      change: change
+    form:
       name: Name
       email: Email
       password: Password
       confirmation: Confirmation
-      create_acc: Create my account
   sessions:
     new:
       email: Email
@@ -83,3 +100,11 @@ en:
       login: Log in
       signup: Sign up now!
       new_user: New user?
+      remember: Remember me on this computer
+  views:
+    pagination:
+      first: "&laquo; First"
+      last: "Last &raquo;"
+      previous: "&lsaquo; Prev"
+      next: "Next &rsaquo;"
+      truncate: "&hellip;"
