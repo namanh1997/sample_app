@@ -1,3 +1,7 @@
 maximum_name_length: 50
 maximum_email_length: 255
 minimum_password_length: 6
+gravatar_size: 80
+gravatar_users_size: 50
+remember_me: 1
+password_reset_expire_time: 2.hours.ago

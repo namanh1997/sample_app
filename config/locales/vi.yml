@@ -1,10 +1,23 @@
 vi:
-  english: English
-  vietnamese: Tiếng Việt
   rortsa: Ứng dụng mẫu của Hướng dẫn Ruby trên Rails
   welcome: Chào mừng tới Ứng dụng mẫu!
   no_user: Không tìm thấy tài khoản!
-  login_invalid: Tài khoản hoặc mật khẩu không chính x
+  login_invalid: Tài khoản hoặc mật khẩu không chính xác
+  profile_updated: Cập nhật thông tin người dùng thành công
+  profile_update_failed: Cập nhật thông tin người dùng thất bại
+  user_deleted: Xóa người dùng thành công
+  user_delete_failed: Xóa người dùng thất bại
+  please_login: Hãy đăng nhập
+  account_activated: Tài khoản đã được kích hoạt!
+  invalid_activation_link: Liên kết kích hoạt không hợp lệ
+  not_activated_login_warning: Tài khoản chưa được kích hoạt. 
+    Kiểm tra email để lấy liên kết kích hoạt
+  check_email_to_activate: Hãy kiểm tra email để kích hoạt tài khoản của bạn
+  email_sent: Hướng dẫn đặt lại mật khẩu đã được gửi vào email
+  email_addr_not_found: Không tìm thấy địa chỉ email
+  cant_empty: Không được để trống
+  resetted_password: Mật khẩu đã được đặt lại
+  expired_password: Đặt lại mật khẩu đã hết hạn
   layouts:
     application:
       title: Ứng dụng mẫu
@@ -16,7 +29,7 @@ vi:
       login: Đăng nhập
       users: Người dùng
       account: Tài khoản
-      profile: Hồ sơ
+      profile: Thông tin người dùng
       settings: Cài đặt
       logout: Đăng xuất
     footer:
@@ -27,6 +40,20 @@ vi:
       about: Giới thiệu
       contact: Liên hệ
       news: Tin tức
+      english: English
+      vietnamese: Tiếng Việt
+  password_resets:
+    edit:
+      title: Đặt lại mật khẩu
+      header: Đặt lại mật khẩu
+      password: Mật khẩu
+      confirmation: Nhập lại mật khẩu
+      update: Cập nhật mật khẩu
+    new:
+      title: Quên mật khẩu
+      header: Quên mật khẩu
+      email: Email
+      submit: Gửi
   static_pages:
     about:
       rort: Hướng dẫn Ruby trên Rails
@@ -67,15 +94,41 @@ vi:
       error_count:
         one: 1 lỗi
         other: "%{count} lỗi"
+  user_mailer:
+    account_activation:
+      header: Ứng dụng mẫu
+      hi: Chào
+      welcome_to: Chào mừng tới Ứng dụng mẫu! Nhấp chuột vào 
+        liên kết bên dưới để kích hoạt tài khoản của bạn
+      activate: Kích hoạt
+  password_reset:
+      header: Đặt lại mật khẩu
+      to_reset: Để đặt lại mật khẩu nhấp chuột vào liên kết bên dưới
+      reset_password: Đặt lại mật khẩu
+      expire: Liên kết này sẽ hết hạn trong hai giờ.
+      ignore_reset: Nếu bạn không muốn đặt lại mật khẩu, 
+        hãy bỏ qua email này và mật khẩu của bạn sẽ không thay đổi.
   users:
     new:
       title: Đăng ký
-      header: Đăng ký
+      header: Đăng ký     
+      button: Tạo tài khoản
+    index:
+      title: Danh sách người dùng
+      header: Danh sách người dùng
+    user:
+      delete: xóa
+      sure?: Xác nhận xóa?
+    edit: 
+      title: Sửa thông tin
+      button: Lưu thay đổi
+      header: Cập nhật thông tin cá nhân
+      change: thay đổi
+    form:
       name: Tên
       email: Email
       password: Mật khẩu
-      confirmation: Nhập lại mật khẩu
-      create_acc: Tạo tài khoản
+      confirmation: Xác nhận mật khẩu
   sessions:
     new:
       email: Email
@@ -83,3 +136,8 @@ vi:
       login: Đăng nhập
       signup: Hãy đăng ký!
       new_user: Bạn là người mới?
+      remember: Lưu tài khoản trên máy tính
+      forgot_password: quên mật khẩu
+  will_paginate:
+    previous_label: "&#8592; Trang trước"
+    next_label: "Trang sau &#8594;"
