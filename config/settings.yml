@@ -4,3 +4,4 @@ minimum_password_length: 6
 gravatar_size: 80
 gravatar_users_size: 50
 users_per_page: 10
+remember_me: 1

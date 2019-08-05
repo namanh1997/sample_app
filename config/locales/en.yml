@@ -8,6 +8,11 @@ en:
   user_deleted: User deleted
   user_delete_failed: User delete failed
   please_login: Please log in
+  account_activated: Account activated!
+  invalid_activation_link: Invalid activation link
+  not_activated_login_warning: Account not activated. 
+    Check your email for the activation link.
+  check_email_to_activate: Please check your email to activate your account.
   layouts:
     application:
       title: SampleApp
@@ -72,6 +77,13 @@ en:
       error_count:
         one: 1 error
         other: "%{count} errors"
+  user_mailer:
+    account_activation:
+      header: Sample App
+      hi: Hi
+      welcome_to: Welcome to the Sample App! Click on 
+        the link below to activate your account
+      activate: Activate
   users:
     new:
       title: Sign up

@@ -4,8 +4,15 @@ vi:
   no_user: Không tìm thấy tài khoản!
   login_invalid: Tài khoản hoặc mật khẩu không chính xác
   profile_updated: Cập nhật thông tin người dùng thành công
+  profile_update_failed: Cập nhật thông tin người dùng thất bại
   user_deleted: Xóa người dùng thành công
+  user_delete_failed: Xóa người dùng thất bại
   please_login: Hãy đăng nhập
+  account_activated: Tài khoản đã được kích hoạt!
+  invalid_activation_link: Liên kết kích hoạt không hợp lệ
+  not_activated_login_warning: Tài khoản chưa được kích hoạt. 
+    Kiểm tra email để lấy liên kết kích hoạt
+  check_email_to_activate: Hãy kiểm tra email để kích hoạt tài khoản của bạn
   layouts:
     application:
       title: Ứng dụng mẫu
@@ -70,6 +77,13 @@ vi:
       error_count:
         one: 1 lỗi
         other: "%{count} lỗi"
+  user_mailer:
+    account_activation:
+      header: Ứng dụng mẫu
+      hi: Chào
+      welcome_to: Chào mừng tới Ứng dụng mẫu! Nhấp chuột vào 
+        liên kết bên dưới để kích hoạt tài khoản của bạn
+      activate: Kích hoạt
   users:
     new:
       title: Đăng ký
