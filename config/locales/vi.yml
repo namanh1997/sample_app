@@ -2,7 +2,17 @@ vi:
   rortsa: Ứng dụng mẫu của Hướng dẫn Ruby trên Rails
   welcome: Chào mừng tới Ứng dụng mẫu!
   no_user: Không tìm thấy tài khoản!
-  login_invalid: Tài khoản hoặc mật khẩu không chính x
+  login_invalid: Tài khoản hoặc mật khẩu không chính xác
+  profile_updated: Cập nhật thông tin người dùng thành công
+  profile_update_failed: Cập nhật thông tin người dùng thất bại
+  user_deleted: Xóa người dùng thành công
+  user_delete_failed: Xóa người dùng thất bại
+  please_login: Hãy đăng nhập
+  account_activated: Tài khoản đã được kích hoạt!
+  invalid_activation_link: Liên kết kích hoạt không hợp lệ
+  not_activated_login_warning: Tài khoản chưa được kích hoạt. 
+    Kiểm tra email để lấy liên kết kích hoạt
+  check_email_to_activate: Hãy kiểm tra email để kích hoạt tài khoản của bạn
   layouts:
     application:
       title: Ứng dụng mẫu
@@ -14,7 +24,7 @@ vi:
       login: Đăng nhập
       users: Người dùng
       account: Tài khoản
-      profile: Hồ sơ
+      profile: Thông tin người dùng
       settings: Cài đặt
       logout: Đăng xuất
     footer:
@@ -67,15 +77,34 @@ vi:
       error_count:
         one: 1 lỗi
         other: "%{count} lỗi"
+  user_mailer:
+    account_activation:
+      header: Ứng dụng mẫu
+      hi: Chào
+      welcome_to: Chào mừng tới Ứng dụng mẫu! Nhấp chuột vào 
+        liên kết bên dưới để kích hoạt tài khoản của bạn
+      activate: Kích hoạt
   users:
     new:
       title: Đăng ký
-      header: Đăng ký
+      header: Đăng ký     
+      button: Tạo tài khoản
+    index:
+      title: Danh sách người dùng
+      header: Danh sách người dùng
+    user:
+      delete: xóa
+      sure?: Xác nhận xóa?
+    edit: 
+      title: Sửa thông tin
+      button: Lưu thay đổi
+      header: Cập nhật thông tin cá nhân
+      change: thay đổi
+    form:
       name: Tên
       email: Email
       password: Mật khẩu
-      confirmation: Nhập lại mật khẩu
-      create_acc: Tạo tài khoản
+      confirmation: Xác nhận mật khẩu
   sessions:
     new:
       email: Email
@@ -83,3 +112,11 @@ vi:
       login: Đăng nhập
       signup: Hãy đăng ký!
       new_user: Bạn là người mới?
+      remember: Lưu tài khoản trên máy tính
+  views:
+    pagination:
+      first: "&laquo; Đầu"
+      last: "Cuối &raquo;"
+      previous: "&lsaquo; Trước"
+      next: "Sau &rsaquo;"
+      truncate: "&hellip;"
