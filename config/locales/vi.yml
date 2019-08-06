@@ -37,6 +37,18 @@ vi:
       news: Tin tức
       english: English
       vietnamese: Tiếng Việt
+  password_resets:
+    edit:
+      title: Đặt lại mật khẩu
+      header: Đặt lại mật khẩu
+      password: Mật khẩu
+      confirmation: Xác nhận mật khẩu
+      update: Cập nhật
+    new:
+      title: Quên mật khẩu
+      header: Quên mật khẩu
+      email: Email
+      submit: Gửi
   static_pages:
     about:
       rort: Hướng dẫn Ruby trên Rails

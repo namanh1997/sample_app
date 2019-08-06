@@ -37,6 +37,18 @@ en:
       news: News
       english: English
       vietnamese: Tiếng Việt
+  password_resets:
+    edit:
+      title: Reset password
+      header: Reset password
+      password: Password
+      confirmation: Password confirmation
+      update: Update
+    new:
+      title: Forgot password
+      header: Forgot password
+      email: Email
+      submit: Submit
   static_pages:
     about:
       rort: Ruby on Rails Tutorial
