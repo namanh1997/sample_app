@@ -15,7 +15,7 @@ gem "jbuilder", "~> 2.5"
 gem "jquery-rails"
 gem "kaminari"
 gem "parser", "~> 2.6", ">= 2.6.3.0"
-gem "puma", "~> 3.11"
+gem "puma", "~> 3.12"
 gem "rails", "~> 5.2.3"
 gem "rubocop", "~> 0.54.0", require: false
 gem "sass-rails", "~> 5"
