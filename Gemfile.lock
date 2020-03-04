@@ -188,7 +188,7 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
     public_suffix (3.1.1)
-    puma (3.12.1)
+    puma (3.12.4)
     rack (2.0.7)
     rack-proxy (0.6.5)
       rack
@@ -313,7 +313,7 @@ DEPENDENCIES
   minitest (= 5.11.3)
   minitest-reporters (= 1.1.14)
   parser (~> 2.6, >= 2.6.3.0)
-  puma (~> 3.11)
+  puma (~> 3.12)
   rails (~> 5.2.3)
   rubocop (~> 0.54.0)
   sass-rails (~> 5)
